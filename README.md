@@ -17,7 +17,7 @@ x AdminUser -> STI
 
 ##UI:
 
-- Bootstrap -> formatting
+x Bootstrap -> formatting
 
 ##Refactor:
 
