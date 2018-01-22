@@ -1,4 +1,4 @@
-<h1>Posts</h1>
+<h1>Audit Log Dashboard</h1>
 
 <table class="table table-striped table-hover">
   <thead>
@@ -7,27 +7,23 @@
         #
       </th>
       <th>
-        Overtime Requested
+      	Employee
       </th>
       <th>
-        Date
+      	Week Starting
       </th>
       <th>
-        User
+      	Confirmed At
       </th>
       <th>
-        Rationale
-      </th>      
-      <th>
-        Status
+      	Status
       </th>
       <th></th>
       <th></th>
     </tr>
   </thead>
   <tbody>
-  	<%= render @posts %>
+  	<%= render @audit_logs %>
   </tbody>
 </table>
-
-<%= paginate @posts %>
+<%= paginate @audit_logs %>
