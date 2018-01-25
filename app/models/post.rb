@@ -12,5 +12,6 @@ class Post < ApplicationRecord
 	private
 		def update_audit_log
 			audit_log = AuditLog.where(user_id: self.id, start_date: (self.date - 6.days..self.date)).last
+			audit_log.confirmed!
 		end
 end
