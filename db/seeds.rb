@@ -3,7 +3,7 @@
 					password_confirmation: "asdfasdf", 
 					first_name: "Barry", 
 					last_name: "Allen",
-					phone: "4803515375")
+					phone: "4353596216")
 
 puts "1 employee created"
 
